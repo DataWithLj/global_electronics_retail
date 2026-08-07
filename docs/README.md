@@ -17,5 +17,6 @@ Prior to transformation, `INFORMATION_SCHEMA.COLUMNS` was queried to inspect tab
 * **Schema Consistency:** Validated column ordinal positions across source tables.
 
 ### Data Quality Audit
-There were no problems with customers table,
+There were no problems with customers table, exchange rates, product table, and stores table.
+
 There were 49719 null delivery dates in sales table. 
