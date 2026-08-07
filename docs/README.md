@@ -19,4 +19,4 @@ Prior to transformation, `INFORMATION_SCHEMA.COLUMNS` was queried to inspect tab
 ### Data Quality Audit
 There were no problems with customers table, exchange rates, product table, and stores table.
 
-There were 49719 null delivery dates in sales table. 
+There were 49719 null delivery dates in sales table. ***Check if there is relation with store key and null in delivery data***
