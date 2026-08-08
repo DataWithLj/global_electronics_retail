@@ -28,4 +28,8 @@ During the audit of the **`Sales`** table, a significant number of nulls were id
 * **Physical Store Transactions:** 49,719 records contained `NULL` values for `Delivery_Date`. Checking StoreKey in the Stores table confirmed these purchases occurred at physical retail locations, where fulfillment happens immediately at the point of sale.
 * **Online Fulfillment:** The remaining 13,165 records contained valid delivery timestamps, all corresponding strictly to online store orders.
 
+### Duplicate Checking
+To find if there's duplicate in `customer` table, the was inspected if there customers that have the same name and birthday. The query didn't return any data.
+To find if there's duplicate in `exchange_rates` table, the was inspected if there exchange rates that have the same date and curreny. The query didn't return any data.
+
 
