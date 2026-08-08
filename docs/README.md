@@ -29,7 +29,8 @@ During the audit of the **`Sales`** table, a significant number of nulls were id
 * **Online Fulfillment:** The remaining 13,165 records contained valid delivery timestamps, all corresponding strictly to online store orders.
 
 ### Duplicate Checking
-To find if there's duplicate in `customer` table, the was inspected if there customers that have the same name and birthday. The query didn't return any data.
-To find if there's duplicate in `exchange_rates` table, the was inspected if there exchange rates that have the same date and curreny. The query didn't return any data.
+To find if there's duplicate in `customer` table, the table was inspected if there are customers that have the same name and birthday. The query didn't return any data.
+To find if there's duplicate in `exchange_rates` table, the table was inspected if there are exchange rates that have the same date and currency. The query didn't return any data.
+To find if there's duplicate in `products` table, the table was inspected if there are products that have the same product name, brand, color, and subcategory. The query didn't return any data.
 
 
