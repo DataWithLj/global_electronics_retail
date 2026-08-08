@@ -28,9 +28,17 @@ During the audit of the **`Sales`** table, a significant number of nulls were id
 * **Physical Store Transactions:** 49,719 records contained `NULL` values for `Delivery_Date`. Checking StoreKey in the Stores table confirmed these purchases occurred at physical retail locations, where fulfillment happens immediately at the point of sale.
 * **Online Fulfillment:** The remaining 13,165 records contained valid delivery timestamps, all corresponding strictly to online store orders.
 
-### Duplicate Checking
-To find if there's duplicate in `customer` table, the table was inspected if there are customers that have the same name and birthday. The query didn't return any data.
-To find if there's duplicate in `exchange_rates` table, the table was inspected if there are exchange rates that have the same date and currency. The query didn't return any data.
-To find if there's duplicate in `products` table, the table was inspected if there are products that have the same product name, brand, color, and subcategory. The query didn't return any data.
+### Duplicate Analysis & Integrity Checks
 
+All 5 tables were audited for both primary key integrity and logical entity duplication.
 
+| Entity | Duplicate Test Criteria | Result |
+| :--- | :--- | :--- |
+| **`Customers`** | Same `Name` + `Birthday` | **0 Duplicates** |
+| **`Exchange_Rates`** | Same `Date` + `Currency` | **0 Duplicates** |
+| **`Products`** | Same `Product Name` + `Brand` + `Color` + `Subcategory` | **0 Duplicates** |
+| **`Sales`** | Same `Order Number` + `Line Number` | **0 Duplicates** |
+| **`Stores`** | Primary Key (`StoreKey`) Uniqueness | **100% Unique** |
+
+#### Store Entity Deduplication Logic
+Further deduplication based on `State`, `Open Date`, or `Square Meters` was intentionally avoided. Because location data stops at the State level (lacking street addresses or cities), retail chains frequently operate multiple valid locations within the same state. Deduplicating on these fields risked removing real physical store branches.
