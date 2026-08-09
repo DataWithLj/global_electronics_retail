@@ -40,5 +40,29 @@ All 5 tables were audited for both primary key integrity and logical entity dupl
 | **`Sales`** | Same `Order Number` + `Line Number` | **0 Duplicates** |
 | **`Stores`** | Primary Key (`StoreKey`) Uniqueness | **100% Unique** |
 
-#### Store Entity Deduplication Logic
+#### Note:
 Further deduplication based on `State`, `Open Date`, or `Square Meters` was intentionally avoided. Because location data stops at the State level (lacking street addresses or cities), retail chains frequently operate multiple valid locations within the same state. Deduplicating on these fields risked removing real physical store branches.
+
+### Categorical audit
+
+#### customers table
+
+There are no errors (nulls, whitespace, inconsistent names and special characters) in gender, country, and continent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
