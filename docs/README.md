@@ -45,15 +45,14 @@ Further deduplication based on `State`, `Open Date`, or `Square Meters` was inte
 
 ### Categorical audit
 
-#### customers table
+### `Customers` Table Cleaning
 
-There are no nulls and whitespaces in name, gender, city, country, state, and continent. There are also no inconsistent names, and special characters in gender, country, state and continent.
+All fields (`Gender`, `Country`, `State`, `Continent`) were verified to be free of nulls and special characters. Specific string cleaning was performed on `Name` and `City`:
 
-There are invalid special cases 
-
-
-
-
+| Field | Issue Identified | Remediation Action | Example Transformation |
+| :--- | :--- | :--- | :--- |
+| **`Name`** | Stray special characters (`?`), extra spaces | Removed special characters, collapsed multiple spaces to single spaces, applied Title Case | `"john  ?doe"` → `"John Doe"` |
+| **`City`** | Parenthetical county names, extra spaces | Stripped secondary location details inside parentheses, normalized spacing, applied Title Case | `"Spring Lake (Highlands)"` → `"Spring Lake"` |
 
 
 
