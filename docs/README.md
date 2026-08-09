@@ -47,9 +47,9 @@ Further deduplication based on `State`, `Open Date`, or `Square Meters` was inte
 
 #### customers table
 
-There are no errors (nulls, whitespace, inconsistent names and special characters) in gender, country, and continent
+There are no nulls and whitespaces in name, gender, city, country, state, and continent. There are also no inconsistent names, and special characters in gender, country, state and continent.
 
-
+There are invalid special cases 
 
 
 
