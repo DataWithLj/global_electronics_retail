@@ -65,12 +65,11 @@ The `Exchange_Rates` table was verified to be clean and fully aligned with trans
 
 The `Products` table was audited for structural accuracy, relationship hierarchy, and logical business boundaries:
 
-* **Data Completeness:** 100% complete records with no null values or unwanted special characters across product attributes (`Brand`, `Color`, `Cost`, `Price`, `Category`, `Subcategory`).
+* **Data Completeness:** 100% complete records with no null values or unwanted special characters across product attributes (`Product Name`, `Brand`, `Color`, `Cost`, `Price`, `Category`, `Subcategory`).
 * **Category Hierarchy:** Mapped category structures to ensure zero orphan or overlapping subcategories. Every `Subcategory` links strictly to one `Category`.
 * **Financial Logic:**
   * **Positive Values:** All prices and costs are non-zero positive numbers.
   * **Margin Integrity:** Confirmed that `Unit Price USD` is consistently higher than `Unit Cost USD` across all items.
-
 
 
 
