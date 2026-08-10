@@ -54,13 +54,12 @@ All fields (`Gender`, `Country`, `State`, `Continent`) were verified to be free 
 | **`Name`** | Stray special characters (`?`), extra spaces | Removed special characters, collapsed multiple spaces to single spaces, applied Title Case | `"john  ?doe"` → `"John Doe"` |
 | **`City`** | Parenthetical county names, extra spaces | Stripped secondary location details inside parentheses, normalized spacing, applied Title Case | `"Spring Lake (Highlands)"` → `"Spring Lake"` |
 
+### `Exchange_Rates` Table Validation
 
+The `Exchange_Rates` table was verified to be clean and fully aligned with transaction logs:
 
-
-
-
-
-
+* **Currency Standardization:** ISO currency codes are valid, standardized, and error-free.
+* **Date & Currency Coverage:** Verified that every `Date` + `Currency` pair present in the `Sales` table has an exact matching rate in `Exchange_Rates`, guaranteeing complete coverage for multi-currency transformations.
 
 
 
