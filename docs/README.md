@@ -61,11 +61,15 @@ The `Exchange_Rates` table was verified to be clean and fully aligned with trans
 * **Currency Standardization:** ISO currency codes are valid, standardized, and error-free.
 * **Date & Currency Coverage:** Verified that every `Date` + `Currency` pair present in the `Sales` table has an exact matching rate in `Exchange_Rates`, guaranteeing complete coverage for multi-currency transformations.
 
-### `Products` Table Validation
+### `Products` Table Audit & Validation
 
-All fields (`Brand`, `Color`, `Unit Cost USD`, `Unit Price USD`,  `Subcategory`, `SubcategoryKey`, `CategoryKey`,and `Category`) were verified to be free of nulls and special characters.
+The `Products` table was audited for structural accuracy, relationship hierarchy, and logical business boundaries:
 
-
+* **Data Completeness:** 100% complete records with no null values or unwanted special characters across product attributes (`Brand`, `Color`, `Cost`, `Price`, `Category`, `Subcategory`).
+* **Category Hierarchy:** Mapped category structures to ensure zero orphan or overlapping subcategories. Every `Subcategory` links strictly to one `Category`.
+* **Financial Logic:**
+  * **Positive Values:** All prices and costs are non-zero positive numbers.
+  * **Margin Integrity:** Confirmed that `Unit Price USD` is consistently higher than `Unit Cost USD` across all items.
 
 
 
