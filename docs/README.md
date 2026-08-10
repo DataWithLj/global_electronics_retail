@@ -62,6 +62,7 @@ The `Exchange_Rates` table was verified to be clean and fully aligned with trans
 * **Date & Currency Coverage:** Verified that every `Date` + `Currency` pair present in the `Sales` table has an exact matching rate in `Exchange_Rates`, guaranteeing complete coverage for multi-currency transformations.
 
 ### `Products` Table Validation
+
 All fields (`Brand`, `Color`, `Unit Cost USD`, `Unit Price USD`,  `Subcategory`, `SubcategoryKey`, `CategoryKey`,and `Category`) were verified to be free of nulls and special characters.
 
 
