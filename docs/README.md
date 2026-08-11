@@ -23,10 +23,12 @@ Initial structural and integrity checks (`INFORMATION_SCHEMA.COLUMNS`, key uniqu
 * **`Customers`**, **`Exchange_Rates`**, **`Products`**, and **`Stores`**: 100% clean schema alignment, valid primary/foreign keys, correct data types, and no anomalous null values.
 
 ### Sales Table Investigation
-During the audit of the **`Sales`** table, a significant number of nulls were identified in the `Delivery_Date` column. Cross-table investigation confirmed these are not data errors, but expected business logic:
 
-* **Physical Store Transactions:** 49,719 records contained `NULL` values for `Delivery_Date`. Checking StoreKey in the Stores table confirmed these purchases occurred at physical retail locations, where fulfillment happens immediately at the point of sale.
-* **Online Fulfillment:** The remaining 13,165 records contained valid delivery timestamps, all corresponding strictly to online store orders.
+During the audit of the **`Sales`** table, all columns were verified to be **100% complete with zero null values**, with the sole exception of `Delivery_Date`. Investigation confirmed these nulls represent expected business logic rather than data errors:
+
+* **Physical Store Transactions:** 49,719 records contained `NULL` values for `Delivery_Date`. Checking `StoreKey` in the `Stores` table confirmed these purchases occurred at physical retail locations, where fulfillment happens immediately at the point of sale.
+* **Online Fulfillment:** The remaining 13,165 records contained valid delivery timestamps, all corresponding strictly to online store orders. Verified that all delivery dates occurred on or after the `Order Date` (`Delivery_Date >= Order Date`), with zero chronological discrepancies..
+* **Overall Completeness:** Confirmed 0 missing or null values across all other transaction fields (`Order Number`, `Line Item`, `Order Date`, `CustomerKey`, `ProductKey`, `StoreKey`, `Quantity`, and `Currency Code`).
 
 ### Duplicate Analysis & Integrity Checks
 
