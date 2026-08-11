@@ -71,12 +71,13 @@ The `Products` table was audited for structural accuracy, relationship hierarchy
   * **Positive Values:** All prices and costs are non-zero positive numbers.
   * **Margin Integrity:** Confirmed that `Unit Price USD` is consistently higher than `Unit Cost USD` across all items.
 
+### `Sales` Table Referential Integrity
 
-
-
-
-
-
+#### Foreign Key Validation
+Verified 100% referential integrity between the `Sales` fact table and all dimension tables, confirming **zero orphan records**:
+* **`ProductKey`:** Every product key in `Sales` maps to a valid primary key in `Products`.
+* **`CustomerKey`:** Every customer key in `Sales` maps to a valid primary key in `Customers`.
+* **`StoreKey`:** Every store key in `Sales` maps to a valid primary key in `Stores`.
 
 
 
