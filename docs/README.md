@@ -81,8 +81,34 @@ Verified 100% referential integrity between the `Sales` fact table and all dimen
 * **`CustomerKey`:** Every customer key in `Sales` maps to a valid primary key in `Customers`.
 * **`StoreKey`:** Every store key in `Sales` maps to a valid primary key in `Stores`.
 
+---
 
+## 📊 Category Financial Performance
 
+A comparative analysis of revenue, net profit, and profit margins across all 8 product categories reveals clear portfolio drivers and profitability efficiency.
+
+| Category | Total Revenue (USD) | Total Profit (USD) | Profit Margin (%) | Revenue Rank | Profit Rank |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Computers** | $19,301,595.46 | $11,277,447.90 | 58.4% | 1 | 1 |
+| **Home Appliances** | $10,795,478.59 | $6,296,338.85 | 58.3% | 2 | 2 |
+| **Cameras and Camcorders** | $6,520,168.02 | $3,919,800.99 | 60.1% | 3 | 3 |
+| **Cell Phones** | $6,183,791.22 | $3,498,626.54 | 56.6% | 4 | 5 |
+| **TV and Video** | $5,928,982.69 | $3,536,694.39 | 59.7% | 5 | 4 |
+| **Audio** | $3,169,627.74 | $1,827,851.77 | 57.7% | 6 | 7 |
+| **Music, Movies and Audio Books** | $3,131,006.44 | $1,909,259.17 | 61.0% | 7 | 6 |
+| **Games and Toys** | $724,829.43 | $396,668.77 | 54.7% | 8 | 8 |
+
+---
+
+### 💡 Key Insights & Observations
+
+* **Top Portfolio Drivers:** **Computers** ($19.30M revenue / $11.28M profit) and **Home Appliances** ($10.80M revenue / $6.30M profit) anchor the business, accounting for over 58% of total revenue combined.
+* **Profitability Flips:** 
+  * **TV and Video vs. Cell Phones:** While *Cell Phones* generated higher top-line revenue ($6.18M vs $5.93M), *TV and Video* yielded higher bottom-line profit ($3.54M vs $3.50M) due to a stronger profit margin (59.7% vs 56.6%).
+  * **Music/Movies vs. Audio:** *Music, Movies and Audio Books* outperformed *Audio* in net profit ($1.91M vs $1.83M) despite lower revenue, driven by a portfolio-leading **61.0% profit margin**.
+* **Highest & Lowest Margins:** 
+  * **Highest Margin Category:** *Music, Movies and Audio Books* (61.0%), followed closely by *Cameras and Camcorders* (60.1%).
+  * **Lowest Margin Category:** *Games and Toys* (54.7%), which represents both the smallest volume ($724.8K revenue) and lowest profitability rate.
 
 
 
