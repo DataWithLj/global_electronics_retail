@@ -82,6 +82,7 @@ Verified 100% referential integrity between the `Sales` fact table and all dimen
 * **`StoreKey`:** Every store key in `Sales` maps to a valid primary key in `Stores`.
 
 ---
+# ⚙️Technical Methodology
 
 ## 📊 Category Financial Performance
 
@@ -110,9 +111,22 @@ A comparative analysis of revenue, net profit, and profit margins across all 8 p
   * **Highest Margin Category:** *Music, Movies and Audio Books* (61.0%), followed closely by *Cameras and Camcorders* (60.1%).
   * **Lowest Margin Category:** *Games and Toys* (54.7%), which represents both the smallest volume ($724.8K revenue) and lowest profitability rate.
 
+## 🛍️ Sales Channel Performance
 
+A channel-level breakdown comparing brick-and-mortar retail performance against e-commerce fulfillment shows clear volume dominance alongside consistent profitability across both streams.
 
+| Store Channel | Total Revenue (USD) | Total Profit (USD) | Profit Margin (%) | Revenue Share (%) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Physical** | $44,351,154.96 | $25,989,995.74 | 58.60% | 79.55% |
+| **Online** | $11,404,324.63 | $6,672,692.64 | 58.51% | 20.45% |
+| **Total** | **$55,755,479.59** | **$32,662,688.38** | **58.58%** | **100.00%** |
 
+---
+
+### 💡 Key Takeaways
+
+* **Physical stores bring in ~80% of sales:** Most of the money ($44.35M out of $55.75M) comes from customers buying directly in physical stores.
+* **Profit rates are almost identical:** Both channels keep about **58.5%** of their revenue as profit. Online sales are just as profitable per sale as physical store sales.
 
 
 
