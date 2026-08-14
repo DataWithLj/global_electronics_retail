@@ -132,6 +132,30 @@ While physical retail locations drive the vast majority of total sales volume, b
 
 ---
 
+## 🌍 Country & Regional Revenue Performance
+
+An analysis of sales distribution across all 8 target countries compares physical retail performance against online channel adoption.
+
+| Country | Physical Revenue (USD) | Online Revenue (USD) | Total Revenue (USD) | Online Share (%) |
+| :--- | :---: | :---: | :---: | :---: |
+| **United States** | $23,764,425.86 | $6,107,205.31 | $29,871,631.17 | 20.4% |
+| **United Kingdom** | $5,749,769.78 | $1,334,318.34 | $7,084,088.12 | 18.8% |
+| **Germany** | $4,246,279.22 | $1,167,870.58 | $5,414,149.80 | 21.6% |
+| **Canada** | $3,611,561.79 | $1,112,772.84 | $4,724,334.63 | 23.6% |
+| **Australia** | $2,099,141.07 | $608,996.54 | $2,708,137.61 | 22.5% |
+| **Italy** | $2,059,086.81 | $416,558.96 | $2,475,645.77 | 16.8% |
+| **Netherlands** | $1,591,344.48 | $370,809.79 | $1,962,154.27 | 18.9% |
+| **France** | $1,229,545.95 | $285,792.27 | $1,515,338.22 | 18.9% |
+| **Total** | **$44,351,154.96** | **$11,404,324.63** | **$55,755,479.59** | **20.45%** |
+
+---
+
+### 💡 Key Regional Insights
+
+* **United States Market Dominance:** The **United States** is by far the largest revenue driver, generating **$29.87M in total revenue** (~53.6% of the company's global total across both channels).
+* **Highest E-Commerce Penetration:** **Canada** leads in online customer adoption with an **23.6% online revenue share**, followed closely by **Australia** (**22.5%**) and **Germany** (**21.6%**).
+* **Lowest E-Commerce Penetration:** **Italy** relies most heavily on physical stores, recording the lowest online share at **16.8%** ($416.6K online vs. $2.06M in-store).
+* **Consistent Global Channel Mix:** E-commerce adoption remains balanced across all international markets, sitting within a narrow corridor of **16.8% to 23.6%** across all 8 nations.
 ### 📊 Individual Store Performance Analysis
 
 Evaluating stores individually reveals a clear distinction between **high-volume revenue generators** and **high-efficiency margin leaders**.
