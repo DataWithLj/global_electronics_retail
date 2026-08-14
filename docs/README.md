@@ -82,6 +82,7 @@ Verified 100% referential integrity between the `Sales` fact table and all dimen
 * **`StoreKey`:** Every store key in `Sales` maps to a valid primary key in `Stores`.
 
 ---
+
 # 📈 Exploratory Data Analysis & Strategic Insights
 
 ## 1. Portfolio, Channel & Store-Level Analysis
@@ -192,7 +193,9 @@ Evaluating stores individually reveals a clear distinction between **high-volume
 
 ---
 
+## Time-Series & Trend Analysis 
 
+###
 
 
 
