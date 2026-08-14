@@ -82,9 +82,11 @@ Verified 100% referential integrity between the `Sales` fact table and all dimen
 * **`StoreKey`:** Every store key in `Sales` maps to a valid primary key in `Stores`.
 
 ---
-# ⚙️Technical Methodology
+# 📈 Exploratory Data Analysis & Strategic Insights
 
-## 📊 Category Financial Performance
+## 1. Portfolio, Channel & Store-Level Analysis
+
+### 📊 Category Financial Performance
 
 A comparative analysis of revenue, net profit, and profit margins across all 8 product categories reveals clear portfolio drivers and profitability efficiency.
 
@@ -101,7 +103,7 @@ A comparative analysis of revenue, net profit, and profit margins across all 8 p
 
 ---
 
-### 💡 Key Insights & Observations
+#### 💡 Key Insights & Observations
 
 * **Top Portfolio Drivers:** **Computers** ($19.30M revenue / $11.28M profit) and **Home Appliances** ($10.80M revenue / $6.30M profit) anchor the business, accounting for over 58% of total revenue combined.
 * **Profitability Flips:** 
@@ -111,7 +113,7 @@ A comparative analysis of revenue, net profit, and profit margins across all 8 p
   * **Highest Margin Category:** *Music, Movies and Audio Books* (61.0%), followed closely by *Cameras and Camcorders* (60.1%).
   * **Lowest Margin Category:** *Games and Toys* (54.7%), which represents both the smallest volume ($724.8K revenue) and lowest profitability rate.
 
-## 🏪 Sales Channel & Store Performance
+### 🏪 Sales Channel & Store Performance
 
 A detailed analysis comparing channel-level performance and individual store metrics reveals key drivers in revenue volume and profitability efficiency.
 
@@ -132,7 +134,7 @@ While physical retail locations drive the vast majority of total sales volume, b
 
 ---
 
-## 🌍 Country & Regional Revenue Performance
+### 🌍 Country & Regional Revenue Performance
 
 An analysis of sales distribution across all 8 target countries compares physical retail performance against online channel adoption.
 
@@ -150,12 +152,13 @@ An analysis of sales distribution across all 8 target countries compares physica
 
 ---
 
-### 💡 Key Regional Insights
+#### 💡 Key Regional Insights
 
 * **United States Market Dominance:** The **United States** is by far the largest revenue driver, generating **$29.87M in total revenue** (~53.6% of the company's global total across both channels).
 * **Highest E-Commerce Penetration:** **Canada** leads in online customer adoption with an **23.6% online revenue share**, followed closely by **Australia** (**22.5%**) and **Germany** (**21.6%**).
 * **Lowest E-Commerce Penetration:** **Italy** relies most heavily on physical stores, recording the lowest online share at **16.8%** ($416.6K online vs. $2.06M in-store).
 * **Consistent Global Channel Mix:** E-commerce adoption remains balanced across all international markets, sitting within a narrow corridor of **16.8% to 23.6%** across all 8 nations.
+
 ### 📊 Individual Store Performance Analysis
 
 Evaluating stores individually reveals a clear distinction between **high-volume revenue generators** and **high-efficiency margin leaders**.
@@ -182,12 +185,12 @@ Evaluating stores individually reveals a clear distinction between **high-volume
 
 ---
 
-### ❓ Key Financial Health Takeaways
+#### ❓ Key Financial Health Takeaways
 
 * **Zero Negative-Margin Locations:** No stores in the portfolio operate near zero or at a loss. Every location operates within a healthy profit margin corridor of **57.9% to 62.7%**. 
 * **Diagnosis:** Lower-performing locations (like Stores 2, 14, 13, and 17) suffer strictly from low customer transaction volume rather than poor unit economics or discounting.
 
-
+---
 
 
 
