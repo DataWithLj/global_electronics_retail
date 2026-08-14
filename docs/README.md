@@ -111,27 +111,57 @@ A comparative analysis of revenue, net profit, and profit margins across all 8 p
   * **Highest Margin Category:** *Music, Movies and Audio Books* (61.0%), followed closely by *Cameras and Camcorders* (60.1%).
   * **Lowest Margin Category:** *Games and Toys* (54.7%), which represents both the smallest volume ($724.8K revenue) and lowest profitability rate.
 
-## 🛍️ Sales Channel Performance
+## 🏪 Sales Channel & Store Performance
 
-A channel-level breakdown comparing brick-and-mortar retail performance against e-commerce fulfillment shows clear volume dominance alongside consistent profitability across both streams.
+A detailed analysis comparing channel-level performance and individual store metrics reveals key drivers in revenue volume and profitability efficiency.
 
-| Store Channel | Total Revenue (USD) | Total Profit (USD) | Profit Margin (%) | Revenue Share (%) |
+---
+
+### 🛍️ Channel Breakdown
+
+While physical retail locations drive the vast majority of total sales volume, both physical and e-commerce channels achieve virtually identical profitability rates.
+
+| Channel | Total Revenue (USD) | Total Profit (USD) | Profit Margin (%) | Revenue Share (%) |
 | :--- | :---: | :---: | :---: | :---: |
 | **Physical** | $44,351,154.96 | $25,989,995.74 | 58.60% | 79.55% |
 | **Online** | $11,404,324.63 | $6,672,692.64 | 58.51% | 20.45% |
 | **Total** | **$55,755,479.59** | **$32,662,688.38** | **58.58%** | **100.00%** |
 
+* **Volume Driver:** Physical stores generate **~80% of total revenue** ($44.35M) and net profit ($25.99M).
+* **Margin Parity:** Both channels convert sales to profit at an identical rate (~**58.5% margin**), demonstrating consistent pricing integrity across fulfillment methods.
+
 ---
 
-### 💡 Key Takeaways
+### 📊 Individual Store Performance Analysis
 
-* **Physical stores bring in ~80% of sales:** Most of the money ($44.35M out of $55.75M) comes from customers buying directly in physical stores.
-* **Profit rates are almost identical:** Both channels keep about **58.5%** of their revenue as profit. Online sales are just as profitable per sale as physical store sales.
+Evaluating stores individually reveals a clear distinction between **high-volume revenue generators** and **high-efficiency margin leaders**.
 
+#### 1. Top Revenue & Profit Performers
+* **Online Store:** Ranks **#1 overall** in total dollar volume ($11.40M revenue), but ranks **#33** in profit margin percentage (58.51%).
+* **Top Physical Stores (US Dominance):** All top 3 physical stores in overall revenue and net profit are located in the **United States**:
+  * **Store 55 (Nevada, US):** Ranked **#1** ($1.42M revenue / $830.6K profit | 58.58% margin, rank #30)
+  * **Store 50 (Kansas, US):** Ranked **#2** ($1.39M revenue / $819.7K profit | 58.77% margin, rank #22)
+  * **Store 54 (Nebraska, US):** Ranked **#3** ($1.38M revenue / $810.3K profit | 58.53% margin, rank #32)
 
+#### 2. Least Revenue & Profit Performers
+* **Bottom Physical Stores:** The lowest sales and profit figures across the entire physical network belong to international locations:
+  * **Store 2 (Northern Territory, Australia):** Lowest overall ($15.2K revenue / $9.5K profit)
+  * **Store 14 (Franche-Comté, France):** Second lowest ($105.7K revenue / $63.6K profit)
+  * **Store 13 (Corse, France):** Third lowest ($150.9K revenue / $89.0K profit)
 
+#### 3. Margin Efficiency Leaders
+* **Top Efficient Stores:** 
+  * **Store 2 (Northern Territory, Australia):** Ranked **#1** in profit margin at **62.68%**.
+  * **Store 16 (Limousin, France):** Ranked **#2** in profit margin at **60.26%**.
+  * **Store 4 (Tasmania, Australia):** Ranked **#3** in profit margin at **60.20%**.
+* **Volume vs. Efficiency Trade-off:** Store **2** generated the lowest absolute sales volume across the physical network ($15.2k revenue), yet retained the highest profit percentage per sale across all locations.
 
+---
 
+### ❓ Key Financial Health Takeaways
+
+* **Zero Negative-Margin Locations:** No stores in the portfolio operate near zero or at a loss. Every location operates within a healthy profit margin corridor of **57.9% to 62.7%**. 
+* **Diagnosis:** Lower-performing locations (like Stores 2, 14, 13, and 17) suffer strictly from low customer transaction volume rather than poor unit economics or discounting.
 
 
 
