@@ -193,11 +193,48 @@ Evaluating stores individually reveals a clear distinction between **high-volume
 
 ---
 
-## Time-Series & Trend Analysis 
+## ⏳Time-Series & Trend Analysis 
 
-###
+### 📅 Annual Revenue & Profit Trajectory
 
+A multi-year temporal analysis reveals rapid revenue growth from 2016 through 2019, followed by a post-peak shift in 2020. 
 
+> ℹ️ **Data Collection Window:** Analysis spans from **January 1, 2016** through **February 20, 2021** (~5.15 years total). 
+
+| Order Year | Total Revenue (USD) | Total Profit (USD) | Profit Margin (%) | Data Coverage |
+| :---: | :---: | :---: | :---: | :---: |
+| **2016** | $6.95M | $4.11M | 59.12% | Full Year (12 mos) |
+| **2017** | $7.42M | $4.34M | 58.44% | Full Year (12 mos) |
+| **2018** | $12.79M | $7.46M | 58.37% | Full Year (12 mos) |
+| **2019** | $18.26M | $10.70M | 58.57% | Full Year (12 mos) |
+| **2020** | $9.29M | $5.45M | 58.61% | Full Year (12 mos) |
+| **2021** | $1.04M | $0.61M | 58.55% | Partial Year (~1.6 mos)* |
+
+---
+
+#### 💡 Key Insights & Observations
+
+* **Peak Revenue Scaling (2016–2019):** Annual top-line sales grew by **+162.7%** from **$6.95M in 2016** to a peak of **$18.26M in 2019**.
+* **Partial Year Context (2021):** The **$1.04M revenue in 2021** represents only **51 days of sales data** (Jan 1 – Feb 20, 2021). Pacing at ~$20.4K/day, 2021 was on track for an annualized run-rate of ~$7.45M.
+* **Ironclad Profit Margins:** Across the entire 5+ year evaluation period, profit margins remained exceptionally stable within a tight band of **58.37% to 59.12%**, regardless of annual sales volume fluctuations.
+
+---
+
+### 🗓️ Monthly & Seasonal Revenue Patterns
+
+Evaluating monthly revenue thresholds ($1M USD mark) across the timeline highlights clear operational scaling and seasonality:
+
+#### 1. Peak & High-Volume Months
+* **December Dominance:** Historically the strongest sales month, consistently generating over **$1.0M revenue** every year from 2016 ($1.0M) through 2019 ($2.48M peak), before dipping in 2020 ($0.65M).
+* **Late-Year High-Volume Drivers (May, Aug, Sep, Oct, Nov):** Surpassed **$1.0M in revenue** during both peak growth years (2018 and 2019).
+* **Mid-Year Surge (June & July):** Crossed the **$1.0M mark** specifically during the 2019 business peak ($1.40M in June; $1.41M in July).
+
+#### 2. Moderate & Low-Volume Months
+* **January & February Dynamics:**
+  * **January:** Remained under $1M for 2016–2018 ($0.65M–$0.92M), broke out in 2019 ($1.94M) and 2020 ($2.07M), and recorded an all-time low in 2021 ($0.51M).
+  * **February:** Surpassed **$1M** from 2018 ($1.34M) through 2020 ($2.23M peak), but hit its all-time low in 2021 ($0.53M) due to partial logging through Feb 20.
+* **Consistently Low Volume Months (March & April):** Historically the lowest sales periods in the annual cycle, staying **well below $1M** across every single year. 
+  * **April** recorded the lowest absolute monthly totals across the portfolio, ranging from a low of **$0.06M (2017)** to a high of **$0.22M (2020)**.
 
 
 
