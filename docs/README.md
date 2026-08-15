@@ -274,7 +274,7 @@ Analyzing sales channels by gender reveals a highly balanced customer base with 
 | :--- | :---: | :---: | :---: | :---: |
 | **Male** | $28,334,854.60 | $16,607,699.99 | 50.82% | 58.61% |
 | **Female** | $27,420,624.99 | $16,054,988.39 | 49.18% | 58.55% |
-| **Variance (M - F)** | **+$914,229.61** | **+$552,711.60** | **+1.64%** | **+0.06%** |
+| **Difference (M - F)** | **+$914,229.61** | **+$552,711.60** | **+1.64%** | **+0.06%** |
 
 #### 🔍 Demographic & Gender Sub-Group Ranking Highlights:
 1. **Male Seniors:** Highest-performing demographic/gender combination overall ($7.76M revenue / $4.56M profit).
