@@ -1,6 +1,8 @@
 # 🎯Project Background & Business Problem
 Core Focus: Business context, stakeholder needs, key problem statement, and primary KPIs.
-
+```diff
+- # INCLUDE IN POWERBI MOST POPULAR CATEGORY FOR EACH AGE BRACKET
+```
 ## 📝Core Business Question
 Where are sales and profit coming from?
 
@@ -85,7 +87,7 @@ Verified 100% referential integrity between the `Sales` fact table and all dimen
 
 # 📈 Exploratory Data Analysis & Strategic Insights
 
-## 1. Portfolio, Channel & Store-Level Analysis
+## 🏪Portfolio, Channel & Store-Level Analysis
 
 ### 📊 Category Financial Performance
 
@@ -235,6 +237,82 @@ Evaluating monthly revenue thresholds ($1M USD mark) across the timeline highlig
   * **February:** Surpassed **$1M** from 2018 ($1.34M) through 2020 ($2.23M peak), but hit its all-time low in 2021 ($0.53M) due to partial logging through Feb 20.
 * **Consistently Low Volume Months (March & April):** Historically the lowest sales periods in the annual cycle, staying **well below $1M** across every single year. 
   * **April** recorded the lowest absolute monthly totals across the portfolio, ranging from a low of **$0.06M (2017)** to a high of **$0.22M (2020)**.
+
+---
+
+## 👤Core Customer Profiling
+
+### 👥 Demographic Group Financial Performance
+
+Categorizing customers by generational life-stage reveals a top-heavy revenue model anchored by older consumer segments:
+
+| Demographic Group | Total Revenue (USD) | Total Profit (USD) | Profit Margin (%) | Revenue Share (%) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Seniors** | $15,001,837.11 | $8,786,405.92 | 58.57% | 26.91% |
+| **Mid-Life Consumers** | $12,517,439.64 | $7,328,650.51 | 58.55% | 22.45% |
+| **Mature Affluents** | $12,303,074.55 | $7,206,526.99 | 58.58% | 22.07% |
+| **Young Professionals** | $8,361,436.86 | $4,912,912.49 | 58.76% | 15.00% |
+| **Young Adults** | $6,712,315.13 | $3,922,993.23 | 58.44% | 12.04% |
+| **Minor** | $859,376.30 | $505,199.24 | 58.79% | 1.54% |
+| **Total** | **$55,755,479.59** | **$32,662,688.38** | **58.58%** | **100.00%** |
+
+---
+
+#### 💡 Key Insights & Customer Lifecycle Observations
+
+* **Older Segments Drive ~71% of Revenue:** The top three demographic groups—**Seniors** ($15.00M), **Mid-Life Consumers** ($12.52M), and **Mature Affluents** ($12.30M)—collectively account for **$39.82M (~71.4%)** of overall top-line performance.
+* **Senior Market Dominance:** **Seniors** represent the single largest revenue stream, generating over **1/4th of all company sales (26.91%)** and yielding **$8.79M in net profit**.
+* **Consistent Unit Economics:** Profit margins remain exceptionally uniform across every age cohort, staying within a paper-thin corridor of **58.44% to 58.79%**.
+
+---
+
+### 👫 Gender Distribution & Cross-Demographic Breakdown
+
+Analyzing sales channels by gender reveals a highly balanced customer base with a slight male skew in total purchasing volume:
+
+| Gender | Total Revenue (USD) | Total Profit (USD) | Revenue Share (%) | Profit Margin (%) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Male** | $28,334,854.60 | $16,607,699.99 | 50.82% | 58.61% |
+| **Female** | $27,420,624.99 | $16,054,988.39 | 49.18% | 58.55% |
+| **Variance (M - F)** | **+$914,229.61** | **+$552,711.60** | **+1.64%** | **+0.06%** |
+
+#### 🔍 Demographic & Gender Sub-Group Ranking Highlights:
+1. **Male Seniors:** Highest-performing demographic/gender combination overall ($7.76M revenue / $4.56M profit).
+2. **Female Seniors:** Second highest overall segment ($7.25M revenue / $4.22M profit).
+3. **Male Mature Affluents:** Ranked #3 ($6.51M revenue / $3.82M profit).
+4. **Female Mid-Life Consumers:** Ranked #4 ($6.29M revenue / $3.69M profit).
+
+---
+
+### 🌍 Geographic Customer Origin Analysis
+
+Evaluating customer origin across country markets confirms that purchasing habits follow national revenue scale while preserving identical profitability:
+
+* **United States Customer Supremacy:** US-based customers lead every demographic bracket, with **US Seniors** generating **$8.57M revenue**, followed by **US Mid-Life Consumers** ($6.60M) and **US Mature Affluents** ($6.39M).
+* **International Customer Uniformity:** Across the UK, Germany, Canada, and Australia, **Seniors** and **Mature Affluents** consistently rank as the top 2 customer groups within each respective country.
+* **Universal Margin Parity:** Regardless of whether a customer originates from the US (58.55% avg margin), UK (58.35%), Germany (58.84%), or France (58.96%), customer monetization remains identical globally.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
