@@ -292,7 +292,24 @@ Evaluating customer origin across country markets confirms that purchasing habit
 * **International Customer Uniformity:** Across the UK, Germany, Canada, and Australia, **Seniors** and **Mature Affluents** consistently rank as the top 2 customer groups within each respective country.
 * **Universal Margin Parity:** Regardless of whether a customer originates from the US (58.55% avg margin), UK (58.35%), Germany (58.84%), or France (58.96%), customer monetization remains identical globally.
 
+### 🐋 Customer Concentration & Revenue Share Analysis
 
+Evaluating customer concentration reveals significant revenue dependency on top-tier buyers (Pareto Principle):
+
+| Customer Tier | Revenue Generated (USD) | Share of Total Revenue (%) |
+| :--- | :---: | :---: |
+| **Top 1% Customers** | $3,565,780.20 | 6.40% |
+| **Top 10% Customers** | $20,072,150.03 | 36.00% |
+| **Top 20% Customers** | $30,874,860.04 | 55.38% |
+| **Remaining 80% Customers** | $24,880,619.55 | 44.62% |
+
+---
+
+#### 💡 Key Concentration Insights
+
+* **Strong Pareto Distribution:** The **top 20% of customers** drive **more than half of total global revenue (55.38%)**, contributing **$30.87M**.
+* **High-Value "Whale" Segment:** The **top 10% of customers** alone generate **36.0% ($20.07M)** of total sales volume, highlighting a vital core audience for VIP loyalty and retention programs.
+* **Top 1% Impact:** The top 1% hyper-spenders generate **$3.57M in revenue**, averaging disproportionately higher customer lifetime value (LTV) than the broader base.
 
 
 
