@@ -294,22 +294,23 @@ Evaluating customer origin across country markets confirms that purchasing habit
 
 ### 🐋 Customer Concentration & Revenue Share Analysis
 
-Evaluating customer concentration reveals significant revenue dependency on top-tier buyers (Pareto Principle):
+Evaluating customer concentration reveals significant revenue dependency on top-tier buyers across non-overlapping customer brackets:
 
-| Customer Tier | Revenue Generated (USD) | Share of Total Revenue (%) |
+| Customer Tier Bracket | Revenue Generated (USD) | Share of Total Revenue (%) |
 | :--- | :---: | :---: |
 | **Top 1% Customers** | $3,565,780.20 | 6.40% |
-| **Top 10% Customers** | $20,072,150.03 | 36.00% |
-| **Top 20% Customers** | $30,874,860.04 | 55.38% |
+| **Next 9% Customers** (Top 2%–10%) | $16,506,369.83 | 29.60% |
+| **Next 10% Customers** (Top 11%–20%) | $10,802,710.01 | 19.38% |
 | **Remaining 80% Customers** | $24,880,619.55 | 44.62% |
 
 ---
 
 #### 💡 Key Concentration Insights
 
-* **Strong Pareto Distribution:** The **top 20% of customers** drive **more than half of total global revenue (55.38%)**, contributing **$30.87M**.
-* **High-Value "Whale" Segment:** The **top 10% of customers** alone generate **36.0% ($20.07M)** of total sales volume, highlighting a vital core audience for VIP loyalty and retention programs.
-* **Top 1% Impact:** The top 1% hyper-spenders generate **$3.57M in revenue**, averaging disproportionately higher customer lifetime value (LTV) than the broader base.
+* **Strong Pareto Distribution:** The **Top 20% of customers** (Top 1% + Next 9% + Next 10%) drive **more than half of total global revenue (55.38%)**, generating a cumulative **$30,874,860.04**.
+* **High-Value "Whale" Segment:** The **Top 10% of buyers** account for **36.00% ($20.07M)** of total sales volume, highlighting a critical core audience for VIP retention and high-touch marketing.
+* **Top 1% Hyper-Spenders:** The top 1% segment alone accounts for **$3.57M (6.40% of overall revenue)**, reflecting exceptionally high average spend per customer.
+* **Broader Base Contribution:** The remaining 80% of buyers contribute **44.62% ($24.88M)** of revenue, providing steady baseline volume across lower average transaction values.
 
 
 
