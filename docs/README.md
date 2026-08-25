@@ -16,13 +16,13 @@
 **Dataset:** [Global Electronics Retail](https://mavenanalytics.io/data-playground/global-electronics-retailer) by Maven Analytics  
 **Scope:** 5 Raw Entities (`Customers`, `Exchange_Rates`, `Products`, `Sales`, `Stores`)
 
-## Initial Data Audit
+## 🔍 Initial Data Audit
 Prior to transformation, `INFORMATION_SCHEMA.COLUMNS` was queried to inspect table structures, column constraints, and data types across all raw tables:
 
 * **Data Type Verification:** Confirmed that all raw fields matched their expected target data types (e.g., date as `DATE`, monetary values as `FLOAT`, keys as `INT`).
 * **Schema Consistency:** Validated column ordinal positions across source tables.
 
-## Data Quality Audit & Observations
+## 📋 Data Quality Audit & Observations
 
 ### Entity Audit Overview
 Initial structural and integrity checks (`INFORMATION_SCHEMA.COLUMNS`, key uniqueness, and null value scans) confirmed that **4 out of 5 raw tables required zero remediation**:
@@ -50,8 +50,6 @@ All 5 tables were audited for both primary key integrity and logical entity dupl
 
 #### Note:
 Further deduplication based on `State`, `Open Date`, or `Square Meters` was intentionally avoided. Because location data stops at the State level (lacking street addresses or cities), retail chains frequently operate multiple valid locations within the same state. Deduplicating on these fields risked removing real physical store branches.
-
-### Categorical audit
 
 ### `Customers` Table Validation
 
@@ -93,7 +91,7 @@ Verified 100% referential integrity between the `Sales` fact table and all dimen
 
 ## 🏪Portfolio, Channel & Store-Level Analysis
 
-### 📊 Category Financial Performance
+### Category Financial Performance
 
 A comparative analysis of revenue, net profit, and profit margins across all 8 product categories reveals clear portfolio drivers and profitability efficiency.
 
@@ -110,7 +108,7 @@ A comparative analysis of revenue, net profit, and profit margins across all 8 p
 
 ---
 
-#### 💡 Key Insights & Observations
+#### Key Insights & Observations
 
 * **Top Portfolio Drivers:** **Computers** ($19.30M revenue / $11.28M profit) and **Home Appliances** ($10.80M revenue / $6.30M profit) anchor the business, accounting for over 58% of total revenue combined.
 * **Profitability Flips:** 
@@ -126,7 +124,7 @@ A detailed analysis comparing channel-level performance and individual store met
 
 ---
 
-### 🛍️ Channel Breakdown
+### Channel Breakdown
 
 While physical retail locations drive the vast majority of total sales volume, both physical and e-commerce channels achieve virtually identical profitability rates.
 
@@ -141,7 +139,7 @@ While physical retail locations drive the vast majority of total sales volume, b
 
 ---
 
-### 🌍 Country & Regional Revenue Performance
+### Country & Regional Revenue Performance
 
 An analysis of sales distribution across all 8 target countries compares physical retail performance against online channel adoption.
 
@@ -159,14 +157,14 @@ An analysis of sales distribution across all 8 target countries compares physica
 
 ---
 
-#### 💡 Key Regional Insights
+#### Key Regional Insights
 
 * **United States Market Dominance:** The **United States** is by far the largest revenue driver, generating **$29.87M in total revenue** (~53.6% of the company's global total across both channels).
 * **Highest E-Commerce Penetration:** **Canada** leads in online customer adoption with an **23.6% online revenue share**, followed closely by **Australia** (**22.5%**) and **Germany** (**21.6%**).
 * **Lowest E-Commerce Penetration:** **Italy** relies most heavily on physical stores, recording the lowest online share at **16.8%** ($416.6K online vs. $2.06M in-store).
 * **Consistent Global Channel Mix:** E-commerce adoption remains balanced across all international markets, sitting within a narrow corridor of **16.8% to 23.6%** across all 8 nations.
 
-### 📊 Individual Store Performance Analysis
+### Individual Store Performance Analysis
 
 Evaluating stores individually reveals a clear distinction between **high-volume revenue generators** and **high-efficiency margin leaders**.
 
@@ -192,7 +190,7 @@ Evaluating stores individually reveals a clear distinction between **high-volume
 
 ---
 
-#### ❓ Key Financial Health Takeaways
+#### Key Financial Health Takeaways
 
 * **Zero Negative-Margin Locations:** No stores in the portfolio operate near zero or at a loss. Every location operates within a healthy profit margin corridor of **57.9% to 62.7%**. 
 * **Diagnosis:** Lower-performing locations (like Stores 2, 14, 13, and 17) suffer strictly from low customer transaction volume rather than poor unit economics or discounting.
@@ -201,7 +199,7 @@ Evaluating stores individually reveals a clear distinction between **high-volume
 
 ## ⏳Time-Series & Trend Analysis 
 
-### 📅 Annual Revenue & Profit Trajectory
+### Annual Revenue & Profit Trajectory
 
 A multi-year temporal analysis reveals rapid revenue growth from 2016 through 2019, followed by a post-peak shift in 2020. 
 
@@ -218,7 +216,7 @@ A multi-year temporal analysis reveals rapid revenue growth from 2016 through 20
 
 ---
 
-#### 💡 Key Insights & Observations
+#### Key Insights & Observations
 
 * **Peak Revenue Scaling (2016–2019):** Annual top-line sales grew by **+162.7%** from **$6.95M in 2016** to a peak of **$18.26M in 2019**.
 * **Partial Year Context (2021):** The **$1.04M revenue in 2021** represents only **51 days of sales data** (Jan 1 – Feb 20, 2021). Pacing at ~$20.4K/day, 2021 was on track for an annualized run-rate of ~$7.45M.
@@ -226,7 +224,7 @@ A multi-year temporal analysis reveals rapid revenue growth from 2016 through 20
 
 ---
 
-### 🗓️ Monthly & Seasonal Revenue Patterns
+### Monthly & Seasonal Revenue Patterns
 
 Evaluating monthly revenue thresholds ($1M USD mark) across the timeline highlights clear operational scaling and seasonality:
 
@@ -246,7 +244,7 @@ Evaluating monthly revenue thresholds ($1M USD mark) across the timeline highlig
 
 ## 👤Core Customer Profiling
 
-### 👥 Demographic Group Financial Performance
+### Demographic Group Financial Performance
 
 Categorizing customers by generational life-stage reveals a top-heavy revenue model anchored by older consumer segments:
 
@@ -262,7 +260,7 @@ Categorizing customers by generational life-stage reveals a top-heavy revenue mo
 
 ---
 
-#### 💡 Key Insights & Customer Lifecycle Observations
+#### Key Insights & Customer Lifecycle Observations
 
 * **Older Segments Drive ~71% of Revenue:** The top three demographic groups—**Seniors** ($15.00M), **Mid-Life Consumers** ($12.52M), and **Mature Affluents** ($12.30M)—collectively account for **$39.82M (~71.4%)** of overall top-line performance.
 * **Senior Market Dominance:** **Seniors** represent the single largest revenue stream, generating over **1/4th of all company sales (26.91%)** and yielding **$8.79M in net profit**.
@@ -270,7 +268,7 @@ Categorizing customers by generational life-stage reveals a top-heavy revenue mo
 
 ---
 
-### 👫 Gender Distribution & Cross-Demographic Breakdown
+### Gender Distribution & Cross-Demographic Breakdown
 
 Analyzing sales channels by gender reveals a highly balanced customer base with a slight male skew in total purchasing volume:
 
@@ -280,7 +278,7 @@ Analyzing sales channels by gender reveals a highly balanced customer base with 
 | **Female** | $27,420,624.99 | $16,054,988.39 | 49.18% | 58.55% |
 | **Difference (M - F)** | **+$914,229.61** | **+$552,711.60** | **+1.64%** | **+0.06%** |
 
-#### 🔍 Demographic & Gender Sub-Group Ranking Highlights:
+#### Demographic & Gender Sub-Group Ranking Highlights:
 1. **Male Seniors:** Highest-performing demographic/gender combination overall ($7.76M revenue / $4.56M profit).
 2. **Female Seniors:** Second highest overall segment ($7.25M revenue / $4.22M profit).
 3. **Male Mature Affluents:** Ranked #3 ($6.51M revenue / $3.82M profit).
@@ -288,7 +286,7 @@ Analyzing sales channels by gender reveals a highly balanced customer base with 
 
 ---
 
-### 🌍 Geographic Customer Origin Analysis
+### Geographic Customer Origin Analysis
 
 Evaluating customer origin across country markets confirms that purchasing habits follow national revenue scale while preserving identical profitability:
 
@@ -296,7 +294,7 @@ Evaluating customer origin across country markets confirms that purchasing habit
 * **International Customer Uniformity:** Across the UK, Germany, Canada, and Australia, **Seniors** and **Mature Affluents** consistently rank as the top 2 customer groups within each respective country.
 * **Universal Margin Parity:** Regardless of whether a customer originates from the US (58.55% avg margin), UK (58.35%), Germany (58.84%), or France (58.96%), customer monetization remains identical globally.
 
-### 🐋 Customer Concentration & Revenue Share Analysis
+### Customer Concentration & Revenue Share Analysis
 
 Evaluating customer concentration reveals significant revenue dependency on top-tier buyers across non-overlapping customer brackets:
 
@@ -309,7 +307,7 @@ Evaluating customer concentration reveals significant revenue dependency on top-
 
 ---
 
-#### 💡 Key Concentration Insights
+#### Key Concentration Insights
 
 * **Strong Pareto Distribution:** The **Top 20% of customers** (Top 1% + Next 9% + Next 10%) drive **more than half of total global revenue (55.38%)**, generating a cumulative **$30,874,860.04**.
 * **High-Value "Whale" Segment:** The **Top 10% of buyers** account for **36.00% ($20.07M)** of total sales volume, highlighting a critical core audience for VIP retention and high-touch marketing.
