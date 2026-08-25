@@ -334,12 +334,12 @@ Evaluating customer concentration reveals significant revenue dependency on top-
 ## 🖼️ Visual Dashboard Gallery
 
 ### 1. Executive Overview
-![Executive Overview Dashboard](<img width="1442" height="812" alt="executive" src="https://github.com/user-attachments/assets/13058f4b-bc64-407f-8187-2721a10e0a83" />)
+![Executive Overview Dashboard](https://github.com/user-attachments/assets/13058f4b-bc64-407f-8187-2721a10e0a83)
 
 * **Key Takeaway:** Establishes top-line performance metrics ($55.76M Total Revenue, $33M Profit, 58.58% Profit Margin across 11.89K unique customers). Highlights the United States as the dominant market ($29.9M) alongside top-performing physical retail stores.
 
 ### 2. Time-Series & Seasonality Analysis
-![Time-Series Dashboard](path/to/time_series.png)
+![Time-Series Dashboard](https://github.com/user-attachments/assets/1b813579-d13a-4cc9-8dae-bd685e5b6711)
 * **Key Takeaway:** Tracks revenue scaling from 2016 through its peak in 2019 ($18.3M revenue / $10.7M profit) before the 2020 contraction. The monthly heatmap highlights strong end-of-year holiday spikes (December peaking at $2.48M in 2019).
 
 ### 3. Customer Profiling & Demographic Analysis
