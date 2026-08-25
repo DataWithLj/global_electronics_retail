@@ -9,7 +9,7 @@ Where are sales and profit coming from?
 ---
 # 📐 Data Architecture & Quality Checks
 
-**Dataset:** [Global Electronics Retail](https://mavenanalytics.io/data-playground) by Maven Analytics  
+**Dataset:** [Global Electronics Retail](https://mavenanalytics.io/data-playground/global-electronics-retailer) by Maven Analytics  
 **Scope:** 5 Raw Entities (`Customers`, `Exchange_Rates`, `Products`, `Sales`, `Stores`)
 
 ## Initial Data Audit
