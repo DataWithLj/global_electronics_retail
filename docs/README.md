@@ -1,12 +1,16 @@
 # 🎯Project Background & Business Problem
-Core Focus: Business context, stakeholder needs, key problem statement, and primary KPIs.
-```diff
-- # INCLUDE IN POWERBI MOST POPULAR CATEGORY FOR EACH AGE BRACKET
-```
-## 📝Core Business Question
-Where are sales and profit coming from?
+
+
+## 📝Core Business Objective
+> **The primary business goal is to evaluate historical sales data to uncover actionable growth opportunities, optimize operational planning, and identify our most valuable customer segments.**
+
+### Initial Exploratory Questions:
+* **Revenue Drivers:** Where is our revenue primarily originating across our key retail markets and main product categories?
+* **Operational Planning:** Are there predictable purchasing cycles or demand spikes that should dictate how we schedule inventory and allocate marketing budgets?
+* **Audience Profiling:** Who makes up our core customer base, and what do their buying habits tell us about potential retention and cross-selling opportunities?
 
 ---
+
 # 📐 Data Architecture & Quality Checks
 
 **Dataset:** [Global Electronics Retail](https://mavenanalytics.io/data-playground/global-electronics-retailer) by Maven Analytics  
@@ -350,7 +354,22 @@ Evaluating customer concentration reveals significant revenue dependency on top-
 ![Product & Category Dashboard](https://github.com/user-attachments/assets/25c0349d-aa8f-4d66-88c8-9e5d3e72b67c)
 * **Key Takeaway:** Identifies **Computers** as the flagship category in both revenue ($19.30M) and volume (44K units). Features an interactive Decomposition Tree to trace sales flow from country down to specific product subcategories like Desktops ($2.94M).
 
+---
 
+# 💡Strategic Recommendations & Action Plan
+
+Based on the multi-year data analysis, seasonal sales patterns, customer spending habits, and high baseline profit margins (~58.58%), the following strategic initiatives are recommended:
+
+---
+
+## 🎯 Strategic Initiatives Matrix
+
+| Focus Area | Data Insight | Strategic Recommendation | Business Goal |
+| :--- | :--- | :--- | :--- |
+| **Global Expansion** | Strong profit baseline (~58.58%) across existing global markets | **Expand International Digital Marketing:** Scale digital marketing efforts in international markets to acquire new online customers while protecting strong profit margins without relying on heavy discounts. | Drive organic customer acquisition and market penetration abroad. |
+| **Seasonality Planning** | Q4 (Nov/Dec) consistently drives **~25% of annual revenue** | **Prepare for Q4 Sales Surge:** Ramp up target marketing efforts and optimize inventory stock levels starting in October ahead of the Q4 holiday surge. | Capitalize on peak buying seasonality and prevent inventory stockouts. |
+| **Customer Retention** | Customer lifecycle repeat purchase potential | **Automate Post-Purchase Retention:** Implement automated post-purchase follow-up emails featuring personalized recommendations for related products based on prior order history. | Increase repeat purchase frequency and elevate Customer Lifetime Value (LTV). |
+| **Basket Building** | High-volume categories (Computers & Home Appliances) | **Attach Accessories at Checkout:** Offer affordable, high-volume accessories (e.g., cables, headphones, peripherals) as dynamic cross-sells whenever a customer purchases a high-ticket item. | Boost Average Order Value (AOV) and basket size per transaction. |
 
 
 
