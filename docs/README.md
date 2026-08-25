@@ -120,7 +120,7 @@ A comparative analysis of revenue, net profit, and profit margins across all 8 p
   * **Highest Margin Category:** *Music, Movies and Audio Books* (61.0%), followed closely by *Cameras and Camcorders* (60.1%).
   * **Lowest Margin Category:** *Games and Toys* (54.7%), which represents both the smallest volume ($724.8K revenue) and lowest profitability rate.
 
-### 🏪 Sales Channel & Store Performance
+## 🏪 Sales Channel & Store Performance
 
 A detailed analysis comparing channel-level performance and individual store metrics reveals key drivers in revenue volume and profitability efficiency.
 
