@@ -334,7 +334,8 @@ Evaluating customer concentration reveals significant revenue dependency on top-
 ## 🖼️ Visual Dashboard Gallery
 
 ### 1. Executive Overview
-![Executive Overview Dashboard](<img width="1442" height="812" alt="image" src="https://github.com/user-attachments/assets/7c8d8936-3cff-4a29-bf99-9eae3de504bb" />)
+![Executive Overview Dashboard](<img width="1442" height="812" alt="executive" src="https://github.com/user-attachments/assets/13058f4b-bc64-407f-8187-2721a10e0a83" />)
+
 * **Key Takeaway:** Establishes top-line performance metrics ($55.76M Total Revenue, $33M Profit, 58.58% Profit Margin across 11.89K unique customers). Highlights the United States as the dominant market ($29.9M) alongside top-performing physical retail stores.
 
 ### 2. Time-Series & Seasonality Analysis
