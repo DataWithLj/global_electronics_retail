@@ -343,11 +343,11 @@ Evaluating customer concentration reveals significant revenue dependency on top-
 * **Key Takeaway:** Tracks revenue scaling from 2016 through its peak in 2019 ($18.3M revenue / $10.7M profit) before the 2020 contraction. The monthly heatmap highlights strong end-of-year holiday spikes (December peaking at $2.48M in 2019).
 
 ### 3. Customer Profiling & Demographic Analysis
-![Customer Profiling Dashboard](path/to/customer_profiling.png)
+![Customer Profiling Dashboard](https://github.com/user-attachments/assets/45a9c4d9-3c25-4c7e-8a72-ad115e16e8f2)
 * **Key Takeaway:** Demonstrates high customer concentration, where the top 10% bracket generates $16.50M in sales. Age bracket profiling confirms that older demographics (65+) lead overall purchasing power across both genders.
 
 ### 4. Product & Category Performance
-![Product & Category Dashboard](path/to/product_category.png)
+![Product & Category Dashboard](https://github.com/user-attachments/assets/25c0349d-aa8f-4d66-88c8-9e5d3e72b67c)
 * **Key Takeaway:** Identifies **Computers** as the flagship category in both revenue ($19.30M) and volume (44K units). Features an interactive Decomposition Tree to trace sales flow from country down to specific product subcategories like Desktops ($2.94M).
 
 
