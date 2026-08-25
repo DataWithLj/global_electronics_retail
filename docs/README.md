@@ -312,10 +312,42 @@ Evaluating customer concentration reveals significant revenue dependency on top-
 * **Top 1% Hyper-Spenders:** The top 1% segment alone accounts for **$3.57M (6.40% of overall revenue)**, reflecting exceptionally high average spend per customer.
 * **Broader Base Contribution:** The remaining 80% of buyers contribute **44.62% ($24.88M)** of revenue, providing steady baseline volume across lower average transaction values.
 
+---
 
+# 🖥️Power BI Interactive Dashboards & Visualizations
 
+> ℹ️ **Overview:** A custom 4-page interactive Power BI dashboard suite was built to analyze multi-year retail performance (2016–2021). The reporting interface provides executive-level KPIs, historical trend analysis, detailed customer profiling, and product category decomposition.
 
+---
 
+## 📊 Dashboard Architectural Structure
+
+| Dashboard View | Core Business Focus | Key Visual Elements |
+| :--- | :--- | :--- |
+| **Executive Overview** | High-level financial KPIs & global store performance | Scorecard Cards, Country Revenue Bar Chart, Store Ranking Table |
+| **Time-Series & Seasonality** | Historical revenue trajectories & monthly trends | Combo Line/Bar Chart, Monthly Heatmap Matrix, YoY Category Grid |
+| **Customer Profiling** | Demographics, purchasing power, and buyer tiers | Horizontal Age/Gender Bar Chart, Tier Concentration Column Chart |
+| **Product & Category** | Merchandise sales, volume drivers, and drill-downs | Horizontal Bar Charts, Metric Selector, Dynamic Decomposition Tree |
+
+---
+
+## 🖼️ Visual Dashboard Gallery
+
+### 1. Executive Overview
+![Executive Overview Dashboard](<img width="1442" height="812" alt="image" src="https://github.com/user-attachments/assets/7c8d8936-3cff-4a29-bf99-9eae3de504bb" />)
+* **Key Takeaway:** Establishes top-line performance metrics ($55.76M Total Revenue, $33M Profit, 58.58% Profit Margin across 11.89K unique customers). Highlights the United States as the dominant market ($29.9M) alongside top-performing physical retail stores.
+
+### 2. Time-Series & Seasonality Analysis
+![Time-Series Dashboard](path/to/time_series.png)
+* **Key Takeaway:** Tracks revenue scaling from 2016 through its peak in 2019 ($18.3M revenue / $10.7M profit) before the 2020 contraction. The monthly heatmap highlights strong end-of-year holiday spikes (December peaking at $2.48M in 2019).
+
+### 3. Customer Profiling & Demographic Analysis
+![Customer Profiling Dashboard](path/to/customer_profiling.png)
+* **Key Takeaway:** Demonstrates high customer concentration, where the top 10% bracket generates $16.50M in sales. Age bracket profiling confirms that older demographics (65+) lead overall purchasing power across both genders.
+
+### 4. Product & Category Performance
+![Product & Category Dashboard](path/to/product_category.png)
+* **Key Takeaway:** Identifies **Computers** as the flagship category in both revenue ($19.30M) and volume (44K units). Features an interactive Decomposition Tree to trace sales flow from country down to specific product subcategories like Desktops ($2.94M).
 
 
 
