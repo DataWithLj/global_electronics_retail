@@ -52,3 +52,31 @@ Based on multi-year sales trends, customer buying habits, and high profit margin
   * *Data Insight:* Most sales volume comes from main categories (Computers & Home Appliances).
   * *Business Goal:* Increase average order totals and get customers to add more items to their cart.
 
+---
+
+## 📂 Data Cleaning & Analysis Workflow
+<details>
+ <summary>Click to view detailed BigQuery SQL & methodology breakdown</summary>
+<p></p>
+ 
+This project followed a systematic end-to-end data pipeline in **SQL (Google BigQuery)**, progressing from structural audits to multi-dimensional Exploratory Data Analysis (EDA).
+
+### 1. Initial Schema & Integrity Audit
+* **Schema Verification:** Queried `INFORMATION_SCHEMA.COLUMNS` to validate column structures, positional orders, and target data types across all 5 raw tables (`Customers`, `Exchange_Rates`, `Products`, `Sales`, `Stores`).
+* **Null & Completeness Checks:** Verified 100% data completeness across 4 out of 5 entities. Identified expected business logic in `Sales.Delivery_Date` where 49,719 `NULL` values corresponded directly to in-store purchases (immediate fulfillment) versus 13,165 valid delivery timestamps for online orders.
+* **Deduplication:** Tested logical entity criteria (e.g., `Name + Birthday` for Customers, `Order Number + Line Item` for Sales). Confirmed zero duplicated records while preserving valid physical store branches sharing state locations.
+
+### 2. Data Cleaning & Transformation
+* **String Normalization:** Cleaned `Customers.Name` and `Customers.City` by stripping unwanted special characters (`?`), trimming extra spaces, removing parenthetical county details, and applying proper Title Case.
+* **Referential Integrity Validation:** Ensured 100% valid Foreign Key mappings (`ProductKey`, `CustomerKey`, `StoreKey`) from the `Sales` fact table to all dimension tables with zero orphan records.
+* **Financial & Domain Logic:** Audited product hierarchy to ensure every subcategory linked to a single category. Verified that all unit prices exceeded unit costs, ensuring zero negative-margin products.
+* **Multi-Currency Mapping:** Verified complete date and currency coverage between `Sales` and `Exchange_Rates` to guarantee accurate conversion rates for global transactions.
+
+### 3. Exploratory Data Analysis (EDA) in BigQuery
+* **Aggregation & Rollups:** Structured `GROUP BY` queries across product categories, subcategories, and order years to calculate total revenue, net profit, and profit margins.
+* **Geographic & Channel Breakdown:** Multi-table `JOIN` operations between `Sales`, `Stores`, and `Customers` to evaluate cross-border channel economics and regional volume splits.
+* **Customer Lifetime Value & NTILE Percentile Bucketing:** Leveraged window functions (`NTILE(100) OVER (ORDER BY customer_total_spend DESC)`) inside Common Table Expressions (CTEs) to segment buyers into 100 percentile tiers and calculate non-overlapping Pareto revenue concentration.
+* **Time-Series Analysis:** Utilized `DATE_DIFF` and calendar functions to analyze multi-year growth patterns, age cohort demographics, and seasonal holiday demand.
+
+
+</details>
