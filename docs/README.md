@@ -339,15 +339,14 @@ Evaluating customer concentration reveals significant revenue dependency on top-
 ### 1. Executive Overview
 ![Executive Overview Dashboard](https://github.com/user-attachments/assets/13058f4b-bc64-407f-8187-2721a10e0a83)
 
-* **Key Takeaway:** Establishes top-line performance metrics ($55.76M Total Revenue, $33M Profit, 58.58% Profit Margin across 11.89K unique customers). Highlights the United States as the dominant market ($29.9M) alongside top-performing physical retail stores.
-
-### 2. Time-Series & Seasonality Analysis
+* **Key Takeaway:** Establishes top-line performance metrics ($55.76M Total Revenue, $33M Profit, 58.58% Profit Margin across 11.89K unique customers). Highlights the United States as the dominant regional market ($29.90M), while individual sales are anchored by the Online channel ($11.40M) and top-performing physical retail stores.
+  
 ![Time-Series Dashboard](https://github.com/user-attachments/assets/1b813579-d13a-4cc9-8dae-bd685e5b6711)
 * **Key Takeaway:** Tracks revenue scaling from 2016 through its peak in 2019 ($18.3M revenue / $10.7M profit) before the 2020 contraction. The monthly heatmap highlights strong end-of-year holiday spikes (December peaking at $2.48M in 2019).
 
 ### 3. Customer Profiling & Demographic Analysis
 ![Customer Profiling Dashboard](https://github.com/user-attachments/assets/45a9c4d9-3c25-4c7e-8a72-ad115e16e8f2)
-* **Key Takeaway:** Demonstrates high customer concentration, where the top 10% bracket generates $16.50M in sales. Age bracket profiling confirms that older demographics (65+) lead overall purchasing power across both genders.
+* **Key Takeaway:** Demonstrates high customer concentration, where the top 10% customer tier accounts for 29.59% of total revenue ($16.50M). Age bracket profiling confirms that older demographics (65+) lead overall purchasing power across both genders, generating $15.78M combined.
 
 ### 4. Product & Category Performance
 ![Product & Category Dashboard](https://github.com/user-attachments/assets/25c0349d-aa8f-4d66-88c8-9e5d3e72b67c)
