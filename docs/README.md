@@ -14,6 +14,7 @@
 # 📐 Data Architecture & Quality Checks
 
 **Dataset:** [Global Electronics Retail](https://mavenanalytics.io/data-playground/global-electronics-retailer) by Microsoft (via Maven Analytics)
+
 **Scope:** 5 Raw Entities (`Customers`, `Exchange_Rates`, `Products`, `Sales`, `Stores`)
 
 ## 🔍 Initial Data Audit
