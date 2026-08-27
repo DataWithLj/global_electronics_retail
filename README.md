@@ -82,6 +82,7 @@ This project followed a systematic end-to-end data pipeline in **SQL (Google Big
 * **Customer Lifetime Value & NTILE Percentile Bucketing:** Leveraged window functions (`NTILE(100) OVER (ORDER BY customer_total_spend DESC)`) inside Common Table Expressions (CTEs) to segment buyers into 100 percentile tiers and calculate non-overlapping Pareto revenue concentration.
 * **Time-Series Analysis:** Utilized `DATE_DIFF` and calendar functions to analyze multi-year growth patterns, age cohort demographics, and seasonal holiday demand.
 
+👉 **[View the Complete BigQuery SQL Script](https://github.com/DataWithLj/e-commerce/tree/main/sql)**
 
 </details>
 
