@@ -2,6 +2,10 @@
 
 SQL Data Analysis & Power BI Dashboards evaluating historical sales data to uncover actionable growth opportunities, optimize operational planning, and identify key customer segments.
 
+<p align="center">
+<img width="100%" alt="dashboardexample" src="https://github.com/user-attachments/assets/06a1bd00-20e7-48d0-a82d-ed18c4408aaf" />
+</p>
+
 👉 **[Read the full documentation](docs/README.md)**
 
 ---
@@ -84,11 +88,14 @@ This project followed a systematic end-to-end data pipeline in **SQL (Google Big
 ---
 
 ## 🖼️ Power BI Dashboard
-<img width="500" alt="dashboardexample" src="https://github.com/user-attachments/assets/06a1bd00-20e7-48d0-a82d-ed18c4408aaf" />
+<p align="center">
+<img width="100%" alt="executive" src="https://github.com/user-attachments/assets/e1388069-d8be-4cf1-a422-840622bd1c3b" />
+</p>
 
-📥 **[Download & Explore Interactive Power BI Report (.pbix)]()**
 
+📥 **[Download & Explore Interactive Power BI Report (.pbix)](https://github.com/DataWithLj/e-commerce/blob/main/dashboard/global_electronics_retail_dashboard.pbix)**
 
+> *Note: Download the `.pbix` file above to interact with dynamic slicers, cross-filtering, and bookmark navigation in Power BI Desktop.*
 
 
 
