@@ -1,0 +1,19 @@
+# Power BI Temporary Files
+*.pbix.xml
+*.Temp/
+~*
+
+# SQL Local Artifacts
+*.log
+*.bak
+
+# Security / Environment Secrets (e.g., DB credentials)
+.env
+*.env
+
+# OS & Editor Generated Files
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
