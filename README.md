@@ -98,6 +98,21 @@ This project followed a systematic end-to-end data pipeline in **SQL (Google Big
 
 > *Note: Download the `.pbix` file above to interact with dynamic slicers, cross-filtering, and bookmark navigation in Power BI Desktop.*
 
+---
+
+## 📁 Repository Structure
+```text
+├── README.md                           <-- Root executive summary & dashboard overview
+├── LICENSE
+├── .gitignore                          <-- Git exclusion rules
+├── dashboard/
+│   └── global_electronics_retail_dashboard.pbix
+├── docs/
+│   └── README.md                       <-- Full project documentation & data dictionary
+└── sql/
+    ├── business_analytics/             <-- SQL queries for KPIs & business questions
+    ├── data_quality_and_audits/        <-- SQL scripts for cleaning & validation
+    └── schema_and_key_verification/    <-- Primary/foreign key checks & model setup
 
 
 
