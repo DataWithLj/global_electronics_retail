@@ -80,3 +80,16 @@ This project followed a systematic end-to-end data pipeline in **SQL (Google Big
 
 
 </details>
+
+---
+
+## 🖼️ Power BI Dashboard
+<img width="500" alt="dashboardexample" src="https://github.com/user-attachments/assets/06a1bd00-20e7-48d0-a82d-ed18c4408aaf" />
+
+📥 **[Download & Explore Interactive Power BI Report (.pbix)]()**
+
+
+
+
+
+
