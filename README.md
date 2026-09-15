@@ -94,7 +94,7 @@ This project followed a systematic end-to-end data pipeline in **SQL (Google Big
 </p>
 
 
-📥 **[Download & Explore Interactive Power BI Report (.pbix)](https://github.com/DataWithLj/e-commerce/blob/main/dashboard/global_electronics_retail_dashboard.pbix)**
+📥 **[Download & Explore Interactive Power BI Report (.pbix)](https://github.com/DataWithLj/global_electronics_retail/blob/main/dashboard/global_electronics_retail_dashboard.pbix)**
 
 > *Note: Download the `.pbix` file above to interact with dynamic slicers, cross-filtering, and bookmark navigation in Power BI Desktop.*
 
